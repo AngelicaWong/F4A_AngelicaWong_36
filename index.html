@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family:Times New Roman,;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background:#BC8F8F ;
+  color:black;font-family:Times New Roman;
+  
+}
+
+
+.header h1 {
+  font-size: 40px;font-family:Times New Roman;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color:#FFE4E1;font-family:Times New Roman;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: ;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {font-size: 20px;
+  background-color:#FFF0F5;
+  color:black;font-family:Times New Roman;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color:white;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+fakeimg {
+  background-color:#FDF5E6;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding:10px;
+  text-align: center;
+  background:#BC8F8F;color:black;font-family:Times New Roman;font-size: 30px
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+
+
+
+</style>
+</head>
+<body>
+
+
+
+
+
+<div class="header">
+  <h1>WONG NOK I, ANGELICA </h1>
+  <p>A website created by Angelica.</p>
+</div>
+
+<div class="navbar">
+	<a href="index.html">Home</a>
+  <a href="EducationBackground.html">Education Background</a>
+  <a href="ExtracurricularActivities.html">Extracurricular Activities </a>
+  <a href="CertificationsandAwards.html">Certifications and Awards </a>
+	 <a href="Contact.html">Contact Information </a>
+	</div>
+  
+	
+
+<div class="row">
+  <div class="side">
+    <h1>Photo of me:</h1>
+<img src="p1.jpeg" alt="no1." width="300" height="380";>
+    <h3>Below is my photo. This is Angelica</h3>
+   </div>
+
+  <div class="main">
+   <h1>Self-Introduction:</h1>
+    <h3>My name is Angelica Wong.I'm a F4 student studying in Sacred Heart Canossian College (English Section).
+I like listening to music and doing sports in my spare time. Since last year, I have been helping in a tutor center as a private tutor. I enjoy sharing my mathematics knowledge with my classmates very much.Moreover, I'm one of the officers in House of St. Teresa and Drama Club. I'm also the vice-prefect in F4Aphrodite. I like organizing events and playing games with my members. I am creative have good leadership.I have joined karate competitions in last few years. Through playing karate, I am able to relieve my stress and boost my body health. Besides, I have been learning piano for about 10 years. I enjoy the graceful musical notes a lot.
+</h3>
+    <p></p>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h5>Feel free to contract me if you have any question!</h5>
+</div>
+
+</body>
+</html>
